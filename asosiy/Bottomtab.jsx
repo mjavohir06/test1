@@ -1,7 +1,7 @@
 import { View, Text } from 'react-native'
 import { NavigationContainer , DarkTheme,DefaultTheme} from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import {AntDesign,FontAwesome} from "@expo/vector-icons"
+import {AntDesign,MaterialIcons} from "@expo/vector-icons"
 
 
 
@@ -19,7 +19,7 @@ const Bottomtab = () => {
     <NavigationContainer theme={DarkTheme}>
       <Tab.Navigator>
         <Tab.Screen name='Home' options={{tabBarIcon(p){return <AntDesign name='home' {...p}/>}}} component={Home}/>
-        <Tab.Screen name='Sozlamalar' options={{tabBarIcon(p){return <AntDesign name='setting' {...p}/>}}} component={Search}/>
+        <Tab.Screen name='tarjimon' options={{tabBarIcon(p){return <MaterialIcons name='g-translate' {...p}/>}}} component={Search}/>
       </Tab.Navigator>
     </NavigationContainer>
   )

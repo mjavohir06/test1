@@ -11,8 +11,8 @@ const Search = () => {
     const [froml, setfroml] = useState(-1)
     const [tol, settol] = useState(-1)
     const [l, setl] = useState(false)
-    const lang = ["uz", "en", "ru"]
-    const languages = ["O'zbek", "English", "Russian"]
+    const lang = ["uz", "en", "ru","uk","ae","it","in","ir","tr","ua"]
+    const languages = ["O'zbek", "English", "Russian","Buyuk Biritaniya","BAA","Italiya","Hindiston","Eron","Turkiya","Ukraina"]
     const uri = `https://api.mymemory.translated.net/get?q=${from}&langpair=${lang[froml]}|${lang[tol]}`
     function btn() {
         if (from != "" && froml != -1 && tol != -1) {
