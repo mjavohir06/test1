@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Quiz test | Mr J",
+    "slug": "Test_Mr_J",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/Logo.jpg",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/Mr_J.jpg",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/Mr_J.jpg",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.begzod12345.Test_Mr_J"
+    },
+    "web": {
+      "favicon": "./assets/Mr_J.jpg"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5ac97cf7-57f9-4615-a5af-241e068544eb"
+      }
+    }
+  }
+}
